@@ -7,7 +7,7 @@
 <h1>Thực hành nhé </h1>
 <body>
 
-<p> Tạo form basic</p>
+<h3> Tạo form basic</h3>
 <form>
   First name:<br>
   <input type="text" name="firstname"><br>
@@ -15,7 +15,7 @@
   <input type="text"name="lastname"><br>
 
 
-  <p>Tạo form dạng passworld</p>
+  <h3>Tạo form dạng passworld</h3>
   <form>
     Username:<br>
     <input type="text" name="username"><br>
@@ -27,7 +27,7 @@
 
   <br><br><br>
 
-    <p> Thực hành với submit</p>
+    <h3> Thực hành với submit</h3>
   <form>
     First name:<br>
    <input type="text" name="firstname"><br>
@@ -37,8 +37,8 @@
   </form>
   
   
-  
-  <p>Tìm kiếm google</p>
+
+  <h3>Tìm kiếm google</h3>
   <form action="https://www.google.com/search?" method="get">
     <input type="text" name="q">
   <input type="submit" value="Google Search">
@@ -55,7 +55,7 @@
 
 
   <form>
-    <h3> Thu thập thông tin cá nhân</h3>
+    <h3> Thực hành điền thông tin cá nhân</h3>
     Name: <br>
     <input type="text"name="name"><br>
     Email: <br>
@@ -68,6 +68,7 @@
 
 
   <br><br><br>
+  <h3>Thực hành điền tên và mật khẩu</h3>
   <form action="" method="post">
   Họ và tên:<br>
   <input type="text" name="Họ và tên"><br>
@@ -80,12 +81,25 @@
 
   <h3> Thực hành Radio</h3>
   <form>
-    <input type="radio" name="chó"> Đồ chó <br>
-    <input type="radio" name="mèo"> Đồ mèo <br>
-
+    <input type="radio" name="gender" value="Đồ chó"> Tui là Đồ chó <br>
+    <input type="radio" name="gender" value="Đồ mèo"> Tui là Đồ mèo <br>
+    <input type="radio" name="gender" value="Đồ cục kít"> Tui là Đồ cục kít <br>
     <br>
     <input type="submit" value=" Gửu đi">
+<!--    // gender có nghĩa là người dùng chỉ được chọn một giá trị trong nhóm-->
   </form>
+
+  <br><br>
+  <h3>Thực hành checkbox</h3>
+  <form action="Link gửi dữ liệu" method="get">
+    Bạn đã có gì gồi nào <br>
+    <input type="checkbox" name="vehicle1" value="Người yêu"> Tui đã có người yêu <br>
+    <input type="checkbox"name="vehicle2" value="Vo"> Tui đã có vợ <br>
+    <input type="checkbox"name="vehicle3" value="Bạn trai"> Tui đã có bạn trai <br>
+    <input type="submit" value="Gửi đi nào baby">
+  </form>
+
+
 
 </body>
 </html>
