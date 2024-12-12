@@ -1,0 +1,1 @@
+<button onClick="alert('xin chao nhe');">xin chao nhe</button>
